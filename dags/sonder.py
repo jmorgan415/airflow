@@ -26,9 +26,9 @@ t1 = BashOperator(task_id='t1', bash_command='sleep 60', dag=dag)
 
 t2 = BashOperator(task_id='t2', bash_command='sleep 60', dag=dag)
 
-t3 = BashOperator(task_id='t3', bash_command='sleep 10', dag=dag)
+t3 = BashOperator(task_id='t3', bash_command='sleep 60', dag=dag)
 
-t4 = BashOperator(task_id='t4', bash_command='sleep 10', dag=dag)
+t4 = BashOperator(task_id='t4', bash_command='sleep 60', dag=dag)
 
 t5 = BashOperator(task_id='t5', bash_command='sleep 60', dag=dag)
 
